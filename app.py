@@ -24,6 +24,7 @@ import os
 
 app = FastAPI()
 
+
 METRIC_CLASSES = {
     "AnswerRelevancyMetric": AnswerRelevancyMetric,
     "HallucinationMetric": HallucinationMetric,
